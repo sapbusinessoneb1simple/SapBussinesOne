@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* /* universal */
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    max-width: 480px; 
+    text-align: center;
+    justify-content: center;
+    font-family: "Raleway", sans-serif ;
+    flex-wrap: nowrap;
+    gap: 5px;
+/*     background-image: url("/public/img/logos/b1-simple.png");
+    
+    background-attachment: fixed;
+    background-position: center;  */
+    
+}
+
+
+
+header{    
+    display: flex;
+    font-size: 100px;
+    margin: 20px 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+.primerSeccion{
+    background-image: url("/public/img/body/sapbusinessone_4.png");
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items:flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+
+    }
+
+.titulo{
+        color: white;
+        font-size: 22px;
+}
+
+.informacionUno{
+
+        font-size: 18px ;
+        color: white;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.23);
+        border-radius: 5px;
+        margin-bottom: 105px;
+}
+
+.titulo3{
+
+        font-size: 22px ;
+        color: #006199 ;
+        font-weight: 500 ;
+        text-align: center;
+        padding-top: 45px;
+    }
+
+.titulo4{
+
+    font-size: 18px;
+    color: #444242 ;
+    font-weight: 300 ;
+    text-align: center;
+    
+
+}
+
+
+.iconos{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    color: #444242;
+}
+.iconosTexto{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.iconos img{
+    width: 33%;
+    padding: 8px;
+}
+
+
+.tercerseccion{
+    background-color: rgb(229, 229, 230);
+    background-size: auto;
+    padding: 15px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.tercerseccion img{
+    width: 150px;
+    padding: 8px;
+    
+}
+
+.tercer{
+
+        font-size: 28px;
+        color: #006199 ;
+        font-weight:600;
+        
+
+}
+
+
+.comentario{
+
+    font-size: 20px ;
+    color: #444242 ;
+    font-weight: 300 ;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.tercerSubSeccion{
+
+    color: #444242;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 20px;
+
+}
+
+.tercerSubSeccion1 {
+    color: #444242;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.cuartaSeccion{
+    background-image:url("/public/img/body/sapbusinessone_17.png");
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items:flex-end;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.plataformaElearning{
+    text-align: center;
+    padding: 12%; 
+    
+}
+
+.textoCuartaSec {
+    padding: 18px;
+
+    background-color:rgba(255, 255, 255, 0.7);
+    color: #006199;
+    font-size: 26px;
+    font-weight: 500;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.comentarioCuartaSec{
+    background-color:rgba(255, 255, 255, 0.7);
+
+    font-weight: 300;
+    color: #444242;
+    font-size: 18px;
+
+}
+
+
+.quintaSec{
+    background-image: url("/public/img/body/sapbusinessone_20.png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 20% ; 
+    height: 600px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+}
+
+.quintaSubSec{
+    margin: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+    background-position: center;
+    text-align: center;
+    padding: 10px ;
+
+    
+}
+
+.textoQuintaSec{
+    color: #006199;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.comentarioQuintaSec{
+    color: #444242;
+    font-size: 15px;
+}
+
+.contact{
+    background-image: url("/public/img/body/sapbusinessone_19.png");
+
+    background-size: cover;   
+
+    color: black;
+    padding: 80px 40px;
+    
+}
+
+.textoContact{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px 30px;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+
+.tituloContact{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.comentarioContact{
+    font-size: 17px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+.formularioContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+input{
+
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+    justify-content: center;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+select{
+
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+    justify-content: center;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+textarea{
+
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+    justify-content: center;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+
+}
+
+button{
+
+    color: #006199;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    justify-content:center;
+    border: 1px solid black;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    text-align: center;
+}
+
+footer{
+    background-color: white;
+    gap: 10px;
+
+    font-size: 25px ;
+    color: #006199;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+}
+footer img{
+    width: 50%;
+    padding: 10px;
+}
